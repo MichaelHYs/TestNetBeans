@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.testFXMLDocumentController">
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="360.0" prefWidth="480.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Master">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#clk_master_siswa" text="Siswa" />
+                  <MenuItem mnemonicParsing="false" onAction="#clk_master_matkul" text="Mata Kuliah" />
+                  <MenuItem mnemonicParsing="false" onAction="#clk_master_nilai" text="Penilaian" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Transaksi">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Penilaian" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Display">
+            <items>
+              <MenuItem fx:id="dis_siswa" mnemonicParsing="false" onAction="#clk_dis_siswa" text="Siswa" />
+                  <MenuItem fx:id="dis_matkul" mnemonicParsing="false" onAction="#clk_dis_matkul" text="Mata Kuliah" />
+                  <MenuItem fx:id="clk_dis_nilai" mnemonicParsing="false" onAction="#clk_dis_nilai" text="Penilaian" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Keluar">
+              <items>
+                  <MenuItem fx:id="btn_keluar" mnemonicParsing="false" onAction="#btn_keluar" text="Keluar" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

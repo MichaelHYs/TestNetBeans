@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.FXML_displayMatkulController">
+   <children>
+      <TableView fx:id="tbvmatkul" layoutX="33.0" layoutY="14.0" prefHeight="281.0" prefWidth="534.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button layoutX="33.0" layoutY="303.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="96.0" layoutY="303.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="157.0" layoutY="303.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
